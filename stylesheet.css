@@ -19,16 +19,18 @@
 .title {
     display: flex;
     flex-direction: column;
+    margin-right: 200px;
 }
 .belowheader {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-shrink: 0;
 }
 .pic {
-    flex-grow: 1;
-    margin-left: 800px;
-    display: flex;
+    display: block;
 }
 
 .body {
@@ -44,6 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 5px solid black;
 }
 .box {
     display: flex;
@@ -85,4 +88,11 @@
 .border {
     display: flex;
     justify-content: center;
+}
+
+.header,
+.belowheader {
+    background-color:#1F2937;
+    color: #f9faf8;
+    font-weight: bolder;
 }
